@@ -58,7 +58,7 @@ class Carga:
 
             # Verificar si existe una película con el mismo nombre
             if nombre_pelicula in self.get_nombre_peliculas():
-                print(f"La película '{nombre_pelicula}' ya fue cargada, remplazando.")
+                print(f"La película '{nombre_pelicula}' ya fue cargada.")
 
                 # Remover la película con el mismo nombre
                 self.lista_peliculas = [p for p in self.lista_peliculas if p['nombre'] != nombre_pelicula]
